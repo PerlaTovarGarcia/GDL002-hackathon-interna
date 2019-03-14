@@ -43,3 +43,4 @@ for ( i in arrayMoviesSelected) {
   });
 }
  //console.log(movies);
+ 
