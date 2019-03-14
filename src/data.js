@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 window.peliculas = {
 
       filterGenere: (data,genere) => {
@@ -12,3 +13,5 @@ window.peliculas = {
 
       }
 }
+=======
+>>>>>>> db41890e30a27489e8dd6cc6486c5d10f7b2d264
