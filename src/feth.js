@@ -2,13 +2,18 @@ const arrayGame = ['tt0451279', 'tt0119116', 'tt0117008', 'tt1454029', 'tt012080
 const peliculas =[];
 const containerRoot = document.getElementById('img');
 
-function card(data) {
-  return (`<div class="flip-card">
-        <div class="flip-card-front containingImg caja-pokemon">
-          <h2>${data.Title}</h2>
-          <img class="activator" src="${data.Poster}"/>
-          <h1> ${data.Year}</h1>
 
+function card(data) {
+  return (`<div class=" containingImg card">
+         <div class="image">
+              <img src="${data.Poster}"/>
+              </div>
+          <div class="details">
+          <div class="center">
+              <h1> ${data.Year}</h1>
+              <h1> ${data.Title}</h1>
+        </div>
+        </div>
         </div>`);
 
 };
