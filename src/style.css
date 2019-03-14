@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #ECEFF1;
+}
+
+
+.nav{
+    height: 40%;
+    font-size: 300%;
+  background-color:#c13535;
+}
