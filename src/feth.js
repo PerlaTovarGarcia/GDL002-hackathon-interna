@@ -11,7 +11,11 @@ function card(data) {
           <div class="details">
           <div class="center">
               <h1> ${data.Year}</h1>
-              <h1> ${data.Title}</h1>
+              <h2> ${data.Title}</h2>
+              <h3> ${data.Rated}</h3>
+              <h3> ${data.Director}</h3>
+              <h4> ${data.Genre}</h4>
+              <p> ${data.Plot}</p>
         </div>
         </div>
         </div>`);

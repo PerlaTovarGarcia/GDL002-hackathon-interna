@@ -1,3 +1,4 @@
+
 .containingImg{
   float: center;
   text-align: center;
@@ -7,11 +8,14 @@
 }
 .card {
     position:relative;
-    width: 360px;
-    height: 400px
+    width: 500px;
+    height: 450px
     align-content: center;
     margin-top: 5%;
     margin-left: 2%;
+}
+.image{
+  width: 500px;
 }
 .card .image {
     overflow: hidden;
@@ -62,6 +66,7 @@
     margin: 10px 0;
     padding: 0;
     color: #262626;
+    font-size: 150%;
 }
 .card .details .center ul {
     margin: 10px auto 0;
