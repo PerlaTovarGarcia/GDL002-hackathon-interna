@@ -9,8 +9,10 @@
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="styleCard.css" />
+  <link rel="stylesheet" href="carrucel.css" />
+
 </head>
- 
+
 <body>
   <header>
       <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
@@ -18,7 +20,7 @@
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-        
+
           <div class="collapse navbar-collapse" id="navbarColor01">
             <ul class="navbar-nav mr-auto">
               <li class="nav-item active">
@@ -34,12 +36,40 @@
           </div>
         </nav>
   </header>
- 
+
+  <div class="gallery items-3">
+  <div id="item-1" class="control-operator"></div>
+  <div id="item-2" class="control-operator"></div>
+  <div id="item-3" class="control-operator"></div>
+  <div id="item-4" class="control-operator"></div>
+
+  <figure class="item">
+   <h1>1</h1>
+  </figure>
+
+  <figure class="item">
+    <img class ="img" src="imagenes/porcentaje.png" alt="">
+  </figure>
+
+  <figure class="item">
+    <h1>3</h1>
+  </figure>
+  <figure class="item">
+    <img class ="img" src="imagenes/carrucel.png" alt="">
+  </figure>
+
+  <div class="controls">
+    <a href="#item-1" class="control-button">•</a>
+    <a href="#item-2" class="control-button">•</a>
+    <a href="#item-3" class="control-button">•</a>
+    <a href="#item-4" class="control-button">•</a>
+  </div>
+</div>
+
   <footer>
   </footer>
   <script src="data.js"></script>
   <script src="main.js"></script>
-  <script src="feth.js"></script>
 </body>
 
 </html>
