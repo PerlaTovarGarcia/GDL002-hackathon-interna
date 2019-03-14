@@ -15,61 +15,66 @@
 
 <body>
   <header>
-      <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-          <a class="navbar-brand" href="../src/index.html">muvies</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <a class="navbar-brand" href="../src/index.html">muvies</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01"
+        aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-          <div class="collapse navbar-collapse" id="navbarColor01">
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="../src/list.html">All List <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Bechdel Test</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
+      <div class="collapse navbar-collapse" id="navbarColor01">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="../src/list.html">All List <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Bechdel Test</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
   </header>
 
   <div class="gallery items-3">
-  <div id="item-1" class="control-operator"></div>
-  <div id="item-2" class="control-operator"></div>
-  <div id="item-3" class="control-operator"></div>
-  <div id="item-4" class="control-operator"></div>
+    <div id="item-1" class="control-operator"></div>
+    <div id="item-2" class="control-operator"></div>
+    <div id="item-3" class="control-operator"></div>
+    <div id="item-4" class="control-operator"></div>
 
-  <figure class="item">
-   <h1>1</h1>
-  </figure>
+    <figure class="item">
+      <img class="img" src="imagenes/carrucel.png" alt="">
+    </figure>
 
-  <figure class="item">
-    <img class ="img" src="imagenes/porcentaje.png" alt="">
-  </figure>
+    <figure class="item">
+      <img class="img" src="imagenes/porcentaje.jpeg" alt="">
+    </figure>
 
-  <figure class="item">
-    <h1>3</h1>
-  </figure>
-  <figure class="item">
-    <img class ="img" src="imagenes/carrucel.png" alt="">
-  </figure>
+    <figure class="item">
+      <img class="img" src="imagenes/betchdel.jpeg" alt="">
+    </figure>
+    <figure class="item">
+      <img class="img" src="imagenes/carrucel.png" alt="">
+    </figure>
 
-  <div class="controls">
-    <a href="#item-1" class="control-button">•</a>
-    <a href="#item-2" class="control-button">•</a>
-    <a href="#item-3" class="control-button">•</a>
-    <a href="#item-4" class="control-button">•</a>
+    <div class="controls">
+      <a href="#item-1" class="control-button">•</a>
+      <a href="#item-2" class="control-button">•</a>
+      <a href="#item-3" class="control-button">•</a>
+      <a href="#item-4" class="control-button">•</a>
+    </div>
   </div>
-</div>
+  <p>These are some movies in our catalogue. If you want to see the full list, click <a
+      href="../src/list.html">here.</a></p>
+  <section class="containingImg">
+    <span id="imgRandom"> </span>
+  </section>
 
   <footer>
   </footer>
-  <script src="data.js"></script>
-  <script src="main.js"></script>
+  <script src="main.js"></script> <!-- funcion random -->
 </body>
 
 </html>
