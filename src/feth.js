@@ -1,5 +1,5 @@
 const arrayMoviesSelected = ['tt0451279', 'tt0117008', 'tt1454029', 'tt0120804', 'tt0120762', 'tt1392190', 'tt0114558', 'tt0780521', 'tt1217209', 'tt0078748', 'tt0089276', 'tt0266697', 'tt1536537', 'tt3077214', 'tt5083738', 'tt0085267', 'tt4925292', 'tt3716530', 'tt0457430', 'tt2873282', 'tt1620680'];
-const movies = [];
+
 const containerRoot = document.getElementById('img');
 
 
@@ -22,7 +22,7 @@ const card = (data) => {
 
 };
 
-const showmovies = (data) => {
+function showmovies (data) {
   let result = "";
   result = containerRoot.innerHTML += card(data);
   // console.log(result);
@@ -30,6 +30,34 @@ const showmovies = (data) => {
 
 }
 
+function showFilter (type){
+  let result = "";
+  containerRoot.innerHTML = '';
+  type.forEach(element => {
+    result = containerRoot.innerHTML += card(data);
+  });
+  return result;
+}
+
+function typeGenere (data){
+
+                 let selectedGenere = document.getElementById('genere');
+
+                  //creo mi funcion donde cuando cambie la opcion de mi selector ordene los pokemones.
+                  selectedGenere.addEventListener('change', () => {
+
+                  //creo variable donde evalua el cambio del selector.
+                  let genere = selectedGenere.value;
+                  //creo una variable donde obtiene la funcion de filtrar. donde le estoy mandando mis datos y mi condicion del selector.
+                  let type = window.peliculas.filterGenere(data, genere);
+
+                  console.log(genere);
+
+       showFilter(type);
+   });
+
+
+}
 
 
 for ( i in arrayMoviesSelected) {
@@ -40,7 +68,10 @@ for ( i in arrayMoviesSelected) {
     showmovies(dataAsJson);
 
 
+
   });
 }
+
+
+
  //console.log(movies);
- 
