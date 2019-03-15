@@ -78,17 +78,18 @@ color: #13aeae;
     line-height: 20px;
     font-size: 250%;
     text-transform: uppercase;
+    font-family: "Lato";
 }
 .card2 .details2 .center2 h2  {
   color: #13aeae;
   line-height: 20px;
   font-size: 150%;
+  font-family: "Lato";
 }
-.card2 .details2 .center2 p {
-    margin: 10px 0;
-    padding: 0;
-    color: #262626;
-    font-size: 50%;
+.card2 .details2 .center2 h3  {
+  line-height: 20px;
+  font-size: 100%;
+  font-family: "Lato";
 }
 .card2 .details2 .center2 ul {
     margin: 10px auto 0;
