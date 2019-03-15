@@ -34,7 +34,7 @@ function showmovies (data) {
 
 
 for ( i in arrayMoviesSelected) {
-  fetch('http://www.omdbapi.com/?i=' + arrayMoviesSelected[i] + '&apikey=19e49d').then((data) => {
+  fetch('https://www.omdbapi.com/?i=' + arrayMoviesSelected[i] + '&apikey=19e49d').then((data) => {
     return data.json();
   }).then((dataAsJson) => {
     //movies[i]= dataAsJson;

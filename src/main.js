@@ -35,7 +35,7 @@ const showmovies = (data) => {
 
 for(i=0; i<=3; i++) {
     const random = Math.floor(Math.random()*arrayMoviesSelected.length);
-    fetch('http://www.omdbapi.com/?i=' + arrayMoviesSelected[random] + '&apikey=19e49d').then((data) => {
+    fetch('https://www.omdbapi.com/?i=' + arrayMoviesSelected[random] + '&apikey=19e49d').then((data) => {
         return data.json();
     }).then((dataAsJson) => {
         showmovies(dataAsJson);
