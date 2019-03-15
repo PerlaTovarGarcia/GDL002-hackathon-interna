@@ -2,7 +2,7 @@
 body {
     background: #ECEFF1;
     margin: 0;
-} 
+}
 .menu{
   margin: 0;
 background-color: #1a4858;
@@ -29,4 +29,21 @@ background-color: #1a4858;
 
 #menu ul li a:hover{
   background-color: #20585d;
+}
+
+@media only screen and (max-width: 740px) and (min-width: 320px)  {
+  #menu ul{
+    background-color: #1a4858;
+    list-style: none;
+    margin-top: 0;
+    padding: 0;
+  }
+
+  #menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 50%;
+    font-family:"Muli";
+  }
+
 }
