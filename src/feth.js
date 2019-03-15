@@ -1,4 +1,4 @@
-const arrayMoviesSelected = ['tt0451279', 'tt0117008', 'tt1454029', 'tt0120804', 'tt0120762', 'tt1392190', 'tt0114558', 'tt0780521', 'tt1217209', 'tt0078748', 'tt0089276', 'tt0266697', 'tt1536537', 'tt3077214', 'tt5083738', 'tt0085267', 'tt4925292', 'tt3716530', 'tt0457430', 'tt2873282', 'tt1620680'];
+const arrayMoviesSelected = ['tt0451279', 'tt0117008', 'tt1454029', 'tt0120804', 'tt1392190', 'tt0114558', 'tt0780521', 'tt1217209', 'tt0078748', 'tt0089276', 'tt0266697', 'tt1536537', 'tt3077214', 'tt5083738', 'tt0085267', 'tt4925292', 'tt3716530', 'tt0457430', 'tt2873282', 'tt1620680'];
 
 const containerRoot = document.getElementById('img');
 
@@ -12,9 +12,9 @@ const card = (data) => {
           <div class="center">
               <h1> ${data.Year}</h1>
               <h2> ${data.Title}</h2>
-              <h3> ${data.Rated}</h3>
-              <h3> ${data.Director}</h3>
-              <h3> ${data.Genre}</h3>
+              <h3> Rated: ${data.Rated}</h3>
+              <h3> Director: ${data.Director}</h3>
+              <h3> Genre: ${data.Genre}</h3>
               <p> ${data.Plot}</p>
         </div>
         </div>
