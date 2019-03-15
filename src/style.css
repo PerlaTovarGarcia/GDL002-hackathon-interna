@@ -1,12 +1,106 @@
+@import url("https://fonts.googleapis.com/css?family=Abel|Acme|Arimo|Lato|Muli|Open+Sans|Roboto+Slab|Volkhov");
 body {
-    margin: 0;
-    padding: 0;
     background: #ECEFF1;
+    margin: 0;
+}
+
+.textIndex{
+font-size: 220%;
+font-family: "Volkhov";
+color: #13aeae;
+}
+
+.containingImgRambom{
+  float: center;
+  text-align: center;
+  align-content: center;
+  display:inline-flex;
 }
 
 
-.nav{
-    height: 40%;
-    font-size: 300%;
-    background-color:#c13535;
+.card2 {
+    position:relative;
+    width: 300px;
+    height: 250px
+    align-content: center;
+    margin-top: 5%;
+    margin-left: 2%;
+}
+.image2{
+  width: 300px;
+}
+.card2 .image2 {
+    overflow: hidden;
+}
+.card2 .image2 img {
+    width: 100%;
+    transition: .5s;
+}
+.card2:hover .image2 img {
+    opacity: .5;
+    transform: translateX(30%);/*100%*/
+}
+.card2 .details2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 70%;/*100%*/
+    height: 100%;
+    background: #BBBBB2;
+    transition: .5s;
+    transform-origin: left;
+    transform: perspective(2000px) rotateY(-90deg);
+}
+.card2:hover .details2 {
+    transform: perspective(2000px) rotateY(0deg);
+}
+.card2 .details2 .center2 {
+    padding: 20px;
+    height: 50%
+    text-align: center;
+    background: #fff;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.card2 .details2 .center2 h1 {
+    margin: 0;
+    padding: 0;
+    color: #ff3636;
+    line-height: 20px;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+.card2 .details2 .center2 h1 span {
+    font-size: 7px;
+    color: #262626;
+}
+.card2 .details2 .center2 p {
+    margin: 10px 0;
+    padding: 0;
+    color: #262626;
+    font-size: 50%;
+}
+.card2 .details2 .center2 ul {
+    margin: 10px auto 0;
+    padding: 0;
+    display: table;
+}
+.card2 .details2 .center2 ul li {
+    list-style: none;
+    margin: 0 5px;
+    float: left;
+}
+.card2 .details2 .center2 ul li a {
+    display: block;
+    background: #262626;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    transform: .5s;
+}
+.card2 .details2 .center2 ul li a:hover {
+    background: #ff3636;
 }

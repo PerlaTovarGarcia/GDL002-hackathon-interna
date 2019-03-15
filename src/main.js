@@ -6,12 +6,12 @@ const containerRoot = document.getElementById('imgRandom');
 
 
 const card = (data) => {
-  return (`<div class=" containingImg card">
-         <div class="image">
+  return (`<div class=" containingImgRambom card2">
+         <div class="image2">
               <img src="${data.Poster}"/>
          </div>
-          <div class="details">
-          <div class="center">
+          <div class="details2">
+          <div class="center2">
               <h1> ${data.Year}</h1>
               <h2> ${data.Title}</h2>
               <h3> ${data.Rated}</h3>
@@ -43,4 +43,3 @@ for(i=0; i<=3; i++) {
         showmovies(dataAsJson);
     });
 }
- 

@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css?family=Abel|Acme|Arimo|Lato|Muli|Open+Sans|Roboto+Slab|Volkhov");
+body {
+    background: #ECEFF1;
+    margin: 0;
+}
+.menu{
+  margin: 0;
+background-color: #1a4858;
+}
+#menu ul{
+  background-color: #1a4858;
+  list-style: none;
+  margin-top: 0;
+  padding: 0;
+}
+
+#menu ul li{
+  display: inline-block;
+
+}
+#menu ul li a {
+  color: white;
+  display: block;
+  padding: 20px 80px;
+  text-decoration: none;
+  font-size: 200%;
+  font-family:"Muli";
+}
+
+#menu ul li a:hover{
+  background-color: #20585d;
+}

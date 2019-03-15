@@ -1,3 +1,7 @@
+body {
+    background: #ECEFF1;
+    margin: 0;
+}
 .gallery .control-operator:target ~ .controls .control-button {
   color: #ccc;
   color: rgba(255, 255, 255, 0.4);
@@ -663,8 +667,7 @@
   height: 700px;
   overflow: hidden;
   text-align: center;
-  background:#FFFFFF;
-  margin-top: 1%;
+  background-color:rgba(241,240,240,0.5);
 }
 
 .gallery .controls {

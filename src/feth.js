@@ -30,34 +30,7 @@ function showmovies (data) {
 
 }
 
-function showFilter (type){
-  let result = "";
-  containerRoot.innerHTML = '';
-  type.forEach(element => {
-    result = containerRoot.innerHTML += card(data);
-  });
-  return result;
-}
 
-function typeGenere (data){
-
-                 let selectedGenere = document.getElementById('genere');
-
-                  //creo mi funcion donde cuando cambie la opcion de mi selector ordene los pokemones.
-                  selectedGenere.addEventListener('change', () => {
-
-                  //creo variable donde evalua el cambio del selector.
-                  let genere = selectedGenere.value;
-                  //creo una variable donde obtiene la funcion de filtrar. donde le estoy mandando mis datos y mi condicion del selector.
-                  let type = window.peliculas.filterGenere(data, genere);
-
-                  console.log(genere);
-
-       showFilter(type);
-   });
-
-
-}
 
 
 for ( i in arrayMoviesSelected) {
