@@ -14,10 +14,8 @@ const card = (data) => {
           <div class="center2">
               <h1> ${data.Year}</h1>
               <h2> ${data.Title}</h2>
-              <h3> ${data.Rated}</h3>
-              <h3> ${data.Director}</h3>
-              <h3> ${data.Genre}</h3>
-              <p> ${data.Plot}</p>
+              <h3> Director: ${data.Director}</h3>
+            
         </div>
         </div>
         </div>`);
